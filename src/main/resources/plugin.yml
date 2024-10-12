@@ -1,0 +1,13 @@
+name: AllenUHC
+main: org.allenpixel.allenuhc.AllenUHC
+version: 1.0
+api-version: 1.20.1
+commands:
+  uhc:
+    description: AllenUHC 主指令
+    usage: /uhc
+    aliases: []
+permissions:
+  allenuhc.admin:
+    description: 管理員權限
+    default: op
